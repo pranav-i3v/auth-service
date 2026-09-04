@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:authtest;MODE=MySQL;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.H2Dialect
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: always
+  mail:
+    host: localhost
+    port: 3025
+
+auth:
+  jwt:
+    private-key-secret-name: test/jwt/private-key
+  email:
+    enabled: false

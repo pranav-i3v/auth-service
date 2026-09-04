@@ -1,0 +1,162 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.pranav:auth-service >-----------------------
+[INFO] Building auth-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ auth-service ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ auth-service ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 51 source files with javac [debug parameters release 21] to target\classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] /A:/CORE_JAVA/auth-service/src/main/java/com/pranav/auth/aws/PrivateKeyProvider.java: A:\CORE_JAVA\auth-service\src\main\java\com\pranav\auth\aws\PrivateKeyProvider.java uses or overrides a deprecated API.
+[INFO] /A:/CORE_JAVA/auth-service/src/main/java/com/pranav/auth/aws/PrivateKeyProvider.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ auth-service ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ auth-service ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug parameters release 21] to target\test-classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] 
+[INFO] --- surefire:3.5.6:test (default-test) @ auth-service ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.pranav.auth.service.AuthServiceIntegrationTest
+01:51:41.790 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.pranav.auth.service.AuthServiceIntegrationTest]: AuthServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:51:42.295 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.pranav.auth.AuthServiceApplication for test class com.pranav.auth.service.AuthServiceIntegrationTest
+01:51:42.601 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.pranav.auth.service.AuthServiceIntegrationTest]: AuthServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:51:42.631 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.pranav.auth.AuthServiceApplication for test class com.pranav.auth.service.AuthServiceIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-09-03T01:51:43.548+05:30  INFO 55036 --- [           main] c.p.a.s.AuthServiceIntegrationTest       : Starting AuthServiceIntegrationTest using Java 21.0.9 with PID 55036 (started by pranav in A:\CORE_JAVA\auth-service)
+2026-09-03T01:51:43.552+05:30  INFO 55036 --- [           main] c.p.a.s.AuthServiceIntegrationTest       : No active profile set, falling back to 1 default profile: "default"
+2026-09-03T01:51:45.565+05:30  INFO 55036 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-03T01:51:45.755+05:30  INFO 55036 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 157 ms. Found 6 JPA repository interfaces.
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\pranav\.m2\repository\net\bytebuddy\byte-buddy-agent\1.18.11\byte-buddy-agent-1.18.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+2026-09-03T01:51:50.093+05:30  INFO 55036 --- [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-03T01:51:50.269+05:30  INFO 55036 --- [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-09-03T01:51:51.392+05:30  INFO 55036 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-03T01:51:51.519+05:30  INFO 55036 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-03T01:51:52.164+05:30  INFO 55036 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:authtest user=SA
+2026-09-03T01:51:52.169+05:30  INFO 55036 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-03T01:51:52.276+05:30  WARN 55036 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-03T01:51:52.374+05:30  INFO 55036 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:authtest]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: AUTHTEST/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-03T01:51:55.884+05:30  INFO 55036 --- [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-03T01:51:56.003+05:30  INFO 55036 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-03T01:51:56.360+05:30  INFO 55036 --- [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-03T01:52:01.816+05:30  WARN 55036 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-03T01:52:03.589+05:30  WARN 55036 --- [           main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 6780af62-c315-4a9b-b404-e8f4510e3526
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-09-03T01:52:03.636+05:30  INFO 55036 --- [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-09-03T01:52:06.229+05:30  INFO 55036 --- [           main] c.p.a.s.AuthServiceIntegrationTest       : Started AuthServiceIntegrationTest in 23.396 seconds (process running for 27.193)
+2026-09-03T01:52:08.306+05:30  WARN 55036 --- [           main] c.p.a.s.AccountLockoutPolicyProvider     : No active account_lockout_policy row found; using built-in fallback defaults
+2026-09-03T01:52:08.701+05:30  INFO 55036 --- [           main] com.pranav.auth.aws.PrivateKeyProvider   : Successfully loaded/refreshed JWT private key from AWS Secrets Manager
+2026-09-03T01:52:08.820+05:30  INFO 55036 --- [           main] com.pranav.auth.service.AuthService      : Registered new user id=1, username=locktest1511961826991600, userType=CUSTOMER
+2026-09-03T01:52:08.851+05:30  WARN 55036 --- [           main] c.p.a.s.AccountLockoutPolicyProvider     : No active account_lockout_policy row found; using built-in fallback defaults
+2026-09-03T01:52:08.851+05:30  INFO 55036 --- [           main] c.p.auth.service.AccountLockoutService   : DEBUG assertNotLocked ENTRY userId=1 attempts=0 max=5
+2026-09-03T01:52:09.008+05:30  WARN 55036 --- [           main] c.p.a.s.AccountLockoutPolicyProvider     : No active account_lockout_policy row found; using built-in fallback defaults
+2026-09-03T01:52:09.009+05:30  INFO 55036 --- [           main] c.p.auth.service.AccountLockoutService   : DEBUG assertNotLocked ENTRY userId=1 attempts=0 max=5
+2026-09-03T01:52:09.137+05:30  WARN 55036 --- [           main] c.p.a.s.AccountLockoutPolicyProvider     : No active account_lockout_policy row found; using built-in fallback defaults
+2026-09-03T01:52:09.137+05:30  INFO 55036 --- [           main] c.p.auth.service.AccountLockoutService   : DEBUG assertNotLocked ENTRY userId=1 attempts=0 max=5
+2026-09-03T01:52:09.264+05:30  WARN 55036 --- [           main] c.p.a.s.AccountLockoutPolicyProvider     : No active account_lockout_policy row found; using built-in fallback defaults
+2026-09-03T01:52:09.264+05:30  INFO 55036 --- [           main] c.p.auth.service.AccountLockoutService   : DEBUG assertNotLocked ENTRY userId=1 attempts=0 max=5
+2026-09-03T01:52:09.391+05:30  WARN 55036 --- [           main] c.p.a.s.AccountLockoutPolicyProvider     : No active account_lockout_policy row found; using built-in fallback defaults
+2026-09-03T01:52:09.391+05:30  INFO 55036 --- [           main] c.p.auth.service.AccountLockoutService   : DEBUG assertNotLocked ENTRY userId=1 attempts=0 max=5
+2026-09-03T01:52:09.626+05:30  WARN 55036 --- [           main] c.p.a.s.AccountLockoutPolicyProvider     : No active account_lockout_policy row found; using built-in fallback defaults
+2026-09-03T01:52:09.626+05:30  INFO 55036 --- [           main] c.p.auth.service.AccountLockoutService   : DEBUG assertNotLocked ENTRY userId=1 attempts=0 max=5
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.69 s <<< FAILURE! -- in com.pranav.auth.service.AuthServiceIntegrationTest
+[ERROR] com.pranav.auth.service.AuthServiceIntegrationTest.accountLocksAfterMaxFailedAttempts -- Time elapsed: 3.513 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual throwable to be an instance of:
+  com.pranav.auth.exception.AccountLockedException
+but was:
+  com.pranav.auth.exception.InvalidCredentialsException: Invalid username or password
+	at com.pranav.auth.service.AuthService.login(AuthService.java:120)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	...(96 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)
+	at com.pranav.auth.service.AuthServiceIntegrationTest.accountLocksAfterMaxFailedAttempts(AuthServiceIntegrationTest.java:148)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   AuthServiceIntegrationTest.accountLocksAfterMaxFailedAttempts:148 
+Expecting actual throwable to be an instance of:
+  com.pranav.auth.exception.AccountLockedException
+but was:
+  com.pranav.auth.exception.InvalidCredentialsException: Invalid username or password
+	at com.pranav.auth.service.AuthService.login(AuthService.java:120)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	...(96 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  51.889 s
+[INFO] Finished at: 2026-09-03T01:52:10+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.6:test (default-test) on project auth-service: There are test failures.
+[ERROR] 
+[ERROR] See A:\CORE_JAVA\auth-service\target\surefire-reports for the individual test results.
+[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
